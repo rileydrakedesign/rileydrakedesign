@@ -1,4 +1,4 @@
-# Hi, I’m Riley 👋
+# Hi, I’m Riley! 👋
 
 **AI engineer.** I build production systems where LLMs and agents do real work, and the infrastructure that keeps them reliable.
 
@@ -12,7 +12,8 @@ Lead developer & DevOps lead at **FAM Brands** · Founder of **Ontology CPG** ·
 
 ### Heimdall
 **FAM Brands** · Apparel product-lifecycle platform, from market research to a style in PLM
-`React` `Node` `Python` `Postgres` `Redis` `Azure`
+
+![React](https://img.shields.io/badge/React-1F2328?style=flat-square&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-1F2328?style=flat-square&logo=nodedotjs&logoColor=5FA04E) ![Python](https://img.shields.io/badge/Python-1F2328?style=flat-square&logo=python&logoColor=3776AB) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1F2328?style=flat-square&logo=postgresql&logoColor=4169E1) ![Redis](https://img.shields.io/badge/Redis-1F2328?style=flat-square&logo=redis&logoColor=FF4438) ![Azure](https://img.shields.io/badge/Azure-1F2328?style=flat-square)
 
 - **Intelligence:** nightly scrapers, plus a vision-model Chrome extension that covers 537 retailers with no per-site parsers
 - **Operations:** end-to-end sample purchasing (approvals, orders, returns, refunds) for 9,400+ requests
@@ -23,7 +24,8 @@ Lead developer & DevOps lead at **FAM Brands** · Founder of **Ontology CPG** ·
 
 ### Agent-CI
 **FAM Brands** · Delivery platform for a team of humans and parallel Claude Code sessions
-`GitHub Actions` `Azure` `Claude Code` `OIDC`
+
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-1F2328?style=flat-square&logo=githubactions&logoColor=2088FF) ![Azure](https://img.shields.io/badge/Azure-1F2328?style=flat-square) ![Claude Code](https://img.shields.io/badge/Claude%20Code-1F2328?style=flat-square&logo=claude&logoColor=D97757) ![OIDC](https://img.shields.io/badge/OIDC-1F2328?style=flat-square&logo=openid&logoColor=F78C40)
 
 - **Coordination:** stateless skills for collision checks across PRs and worktrees, lane routing, and a merge gate
 - **Delivery:** 18 workflows; Azure slot deploys with health-checked automatic rollback; no static secrets
@@ -33,7 +35,8 @@ Lead developer & DevOps lead at **FAM Brands** · Founder of **Ontology CPG** ·
 
 ### Agent Brain Platform
 **Ontology CPG** · Agentic ERP for a CPG brand selling into Target, Albertsons, UNFI, and KeHE
-`TypeScript` `FastAPI` `Postgres` `Next.js` `Cloudflare Workers` `Claude Managed Agents`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-1F2328?style=flat-square&logo=typescript&logoColor=3178C6) ![FastAPI](https://img.shields.io/badge/FastAPI-1F2328?style=flat-square&logo=fastapi&logoColor=009688) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1F2328?style=flat-square&logo=postgresql&logoColor=4169E1) ![Next.js](https://img.shields.io/badge/Next.js-1F2328?style=flat-square&logo=nextdotjs&logoColor=FFFFFF) ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare%20Workers-1F2328?style=flat-square&logo=cloudflareworkers&logoColor=F38020) ![Claude Managed Agents](https://img.shields.io/badge/Claude%20Managed%20Agents-1F2328?style=flat-square&logo=claude&logoColor=D97757) ![MCP](https://img.shields.io/badge/MCP-1F2328?style=flat-square&logo=modelcontextprotocol&logoColor=FFFFFF)
 
 - **Knowledge as code:** agents edit a Git-versioned company wiki only through PRs gated by ontology and provenance CI
 - **Zero-credential agents:** every data call is checked against a 96-view read surface and run as bound SQL on a read-only role
@@ -45,14 +48,16 @@ Lead developer & DevOps lead at **FAM Brands** · Founder of **Ontology CPG** ·
 
 ## Open source
 
-| Project | What it does | Stack |
-| --- | --- | --- |
-| **[agentctl](https://github.com/rileydrakedesign/agentctl)** | Static analysis for agent context: token budgets per model, redundant MCP tools, contradictory instructions, and a CI gate on regressions. 153 tests. | TypeScript, MCP SDK |
-| **[wikiforge](https://github.com/rileydrakedesign/wikiforge)** | `npx wforge-cli init` scaffolds LLM-maintained wikis with lifecycle rules and maturity gates on autonomous mode. On npm. | TypeScript |
+**[agentctl](https://github.com/rileydrakedesign/agentctl)** · Static analysis for agent context: token budgets per model, redundant MCP tools, contradictory instructions, and a CI gate on regressions.<br>
+![TypeScript](https://img.shields.io/badge/TypeScript-1F2328?style=flat-square&logo=typescript&logoColor=3178C6) ![MCP](https://img.shields.io/badge/MCP-1F2328?style=flat-square&logo=modelcontextprotocol&logoColor=FFFFFF)
+
+**[wikiforge](https://github.com/rileydrakedesign/wikiforge)** · `npx wforge-cli init` scaffolds LLM-maintained wikis with lifecycle rules and maturity gates on autonomous mode.<br>
+![TypeScript](https://img.shields.io/badge/TypeScript-1F2328?style=flat-square&logo=typescript&logoColor=3178C6) ![npm](https://img.shields.io/badge/npm-1F2328?style=flat-square&logo=npm&logoColor=CB3837)
 
 ## Other projects
 
-| Project | What it does | Stack |
-| --- | --- | --- |
-| **[Agents for X](https://github.com/rileydrakedesign/agents-for-x)** | LLM SaaS on a 5-provider gateway with token-budget admission and per-provider circuit breakers; 33-tool MCP server on npm. 245 tests. *Retired.* | Next.js, Supabase, Redis |
-| **[AIStudyBuddy](https://github.com/rileydrakedesign/AIStudyBuddy)** | RAG study assistant: hybrid vector and keyword search with reciprocal rank fusion, intent-routed retrieval, page-level citations. *Retired.* | React, Node, FastAPI, MongoDB |
+**[Agents for X](https://github.com/rileydrakedesign/agents-for-x)** · LLM SaaS on a 5-provider gateway with token-budget admission and circuit breakers; 33-tool MCP server on npm. *Retired.*<br>
+![Next.js](https://img.shields.io/badge/Next.js-1F2328?style=flat-square&logo=nextdotjs&logoColor=FFFFFF) ![Supabase](https://img.shields.io/badge/Supabase-1F2328?style=flat-square&logo=supabase&logoColor=3FCF8E) ![Redis](https://img.shields.io/badge/Redis-1F2328?style=flat-square&logo=redis&logoColor=FF4438) ![Stripe](https://img.shields.io/badge/Stripe-1F2328?style=flat-square&logo=stripe&logoColor=635BFF) ![MCP](https://img.shields.io/badge/MCP-1F2328?style=flat-square&logo=modelcontextprotocol&logoColor=FFFFFF)
+
+**[AIStudyBuddy](https://github.com/rileydrakedesign/AIStudyBuddy)** · RAG study assistant with hybrid search, reciprocal rank fusion, intent-routed retrieval, and page-level citations. *Retired.*<br>
+![React](https://img.shields.io/badge/React-1F2328?style=flat-square&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-1F2328?style=flat-square&logo=nodedotjs&logoColor=5FA04E) ![FastAPI](https://img.shields.io/badge/FastAPI-1F2328?style=flat-square&logo=fastapi&logoColor=009688) ![MongoDB](https://img.shields.io/badge/MongoDB-1F2328?style=flat-square&logo=mongodb&logoColor=47A248)
